@@ -1,7 +1,7 @@
 /*
 MetNet: comparison of Metabolic Networks
  */
-package MetNet.Models;
+package MetNet.models;
 
 import java.util.Map;
 import org.xml.sax.Attributes;

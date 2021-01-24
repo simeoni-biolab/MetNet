@@ -1,11 +1,11 @@
 /*
     MetNet: comparison of Methabolic Networks
 */
-package MetNet.Gui;
+package MetNet.gui;
 
-import MetNet.Models.MainModel;
-import MetNet.Models.MainResults;
-import MetNet.Models.Utils;
+import MetNet.models.MainModel;
+import MetNet.models.MainResults;
+import MetNet.models.Utils;
 import java.io.IOException;
 import java.util.logging.Level;
 import java.util.logging.Logger;

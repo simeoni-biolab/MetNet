@@ -1,10 +1,10 @@
 /*
     MetNet: comparison of Methabolic Networks
 */
-package MetNet.Gui;
+package MetNet.gui;
 
 
-import MetNet.Models.HomeModel;
+import MetNet.models.HomeModel;
 import java.beans.PropertyChangeEvent;
 import java.beans.PropertyChangeListener;
 

@@ -1,7 +1,7 @@
 /*
     MetNet: comparison of Methabolic Networks
 */
-package MetNet.Models;
+package MetNet.models;
 
 /**
  * data structure to store the comparison results of a single pathway 

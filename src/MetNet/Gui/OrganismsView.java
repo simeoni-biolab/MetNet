@@ -1,10 +1,10 @@
 /*
     MetNet: comparison of Methabolic Networks
 */
-package MetNet.Gui;
+package MetNet.gui;
 
-import MetNet.Models.Utils;
-import MetNet.Models.OrganismsModel;
+import MetNet.models.Utils;
+import MetNet.models.OrganismsModel;
 import java.awt.Font;
 import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;

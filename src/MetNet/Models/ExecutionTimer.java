@@ -1,7 +1,7 @@
 /*
 MetNet: comparison of Metabolic Networks
  */
-package MetNet.Models;
+package MetNet.models;
 
 /*
 Timer to measure the execution time of the comparison

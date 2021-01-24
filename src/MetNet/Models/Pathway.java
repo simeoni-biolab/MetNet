@@ -3,7 +3,7 @@ MetNet: comparison of Metabolic Networks
  */
 
 
-package MetNet.Models;
+package MetNet.models;
 
 import java.util.HashMap;
 import java.util.Map;

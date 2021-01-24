@@ -5,15 +5,15 @@ package MetNet;
 
 import java.util.logging.Level;
 import java.util.logging.Logger;
-import MetNet.Models.Utils;
-import MetNet.Models.CommandLineExecution;
-import MetNet.Gui.HomeView;
+import MetNet.models.Utils;
+import MetNet.models.CommandLineExecution;
+import MetNet.gui.HomeView;
 
 /*
 MetNet's main class.
 MetNet can run as standalone GUI application or as a command-line program. 
  */
-public class MetNetNew {
+public class MetNet {
 
     /*
      @param args the command line arguments:
@@ -28,7 +28,7 @@ public class MetNetNew {
             try{
                 HomeView homeView = new HomeView();
             } catch (Exception ex) {
-                Logger.getLogger(MetNetNew.class.getName()).log(Level.SEVERE, "Execution failure", ex);
+                Logger.getLogger(MetNet.class.getName()).log(Level.SEVERE, "Execution failure", ex);
             }
         }
         else            
@@ -56,7 +56,7 @@ public class MetNetNew {
                         cle = new CommandLineExecution(args[0], args[1], args[2]);
                         cle.exe();
                     }catch (Exception ex) {               
-                        Logger.getLogger(MetNetNew.class.getName()).log(Level.SEVERE, "Execution failure", ex);
+                        Logger.getLogger(MetNet.class.getName()).log(Level.SEVERE, "Execution failure", ex);
                     }
                  }
             } // end command line execution

@@ -1,7 +1,7 @@
 /*
     MetNet: comparison of Methabolic Networks
 */
-package MetNet.Models;
+package MetNet.models;
 
 import java.beans.PropertyChangeListener;
 import java.beans.PropertyChangeEvent;

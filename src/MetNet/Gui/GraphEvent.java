@@ -1,9 +1,9 @@
 /*
     MetNet: comparison of Methabolic Networks
 */
-package MetNet.Gui;
+package MetNet.gui;
 
-import MetNet.Models.Utils;
+import MetNet.models.Utils;
 
 import org.graphstream.graph.Edge;
 import org.graphstream.graph.Graph;
